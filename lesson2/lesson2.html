@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .item {
+        border: solid black 1px;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="item">
+      <thead class="item">
+        <th class="item">Số thứ tự</th>
+        <th class="item">Họ tên</th>
+        <th class="item">Tuổi</th>
+        <th class="item">Lớp</th>
+        <th class="item">Điểm trung bình</th>
+      </thead>
+      <tbody id="target">
+        <tr class="item">
+          <td class="item">Số thứ tự</td>
+          <td class="item">Họ tên</td>
+          <td class="item">Tuổi</td>
+          <td class="item">Lớp</td>
+          <td class="item">Điểm trung bình</td>
+        </tr>
+      </tbody>
+    </table>
+    <form action="" onsubmit="add()">
+      Họ tên: <input type="text" /> <br />
+      Tuổi: <input type="number" /> <br />
+      Lớp:
+      <select name="" id="">
+        <option value="">Công nghệ thông tin</option>
+        <option value="">Đồ họa</option>
+      </select>
+      <br />
+      Điểm trung bình:<input type="number" /> <br />
+      Sở thích: <input type="text" />
+    </form>
+    <script src="./lesson2.js"></script>
+  </body>
+</html>
